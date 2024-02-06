@@ -1,19 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './home_page/index';
+import './view/style.css';
+import Home from './view/index';
 import Footer from './view/footer';
 import Header from './view/header';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'semantic-ui-css/semantic.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <Home />
-    <Footer />
+    <div className='main'>
+      <Header />
+      <Home />
+      <Footer />
+    </div>
   </React.StrictMode>
 );
 
