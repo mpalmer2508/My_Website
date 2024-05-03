@@ -1,15 +1,18 @@
+<?php 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <META HTTP-EQUIV="Refresh" CONTENT="0" ; URL="index.php">
     <title>Document</title>
 </head>
 
 <body>
-    <a href="predictions/index">EPL Predictions</a>
+    <a href="predictions/index.php">EPL Predictions</a>
+    <?php header("predictions/index.php")?>
 </body>
 
 </html>
