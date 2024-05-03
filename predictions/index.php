@@ -1,3 +1,5 @@
+<?php 
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +10,7 @@
 </head>
 
 <body>
-    <a href="predictions/index.php">EPL Predictions</a>
+    <p>Predictions</p>
 </body>
 
 </html>
